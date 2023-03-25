@@ -23,6 +23,44 @@ import layerFrontThird from './assets/img/screen-3/layer-front.png'
 
 
 function App() {
+  //first
+  const layerBackFirst = {
+    backgroundImage: `url(${layerBack})`
+  }
+  const layerMiddleFirst = {
+    backgroundImage: `url(${layerMiddle})`
+  }
+  const layerFrontFirst = {
+    backgroundImage: `url(${layerFront})`
+  }
+  //second
+  const layerBackSecondImg = {
+    backgroundImage: `url(${layerBackSecond})`
+  }
+  const layerGeraImg = {
+    backgroundImage: `url(${layerGera})`
+  }
+  const layerYenImg = {
+    backgroundImage: `url(${layerYen})`
+  }
+  const layerFrontSecondImg = {
+    backgroundImage: `url(${layerFrontSecond})`
+  }
+  //third
+  const layerBackThirdImg = {
+    backgroundImage: `url(${layerBackThird})`
+  }
+  const layerMiddleThirdImg = {
+    backgroundImage: `url(${layerMiddleThird})`
+  }
+  const layerCiriImg = {
+    backgroundImage: `url(${layerCiri})`
+  }
+  const layerFrontThirdImg = {
+    backgroundImage: `url(${layerFrontThird})`
+  }
+  
+
   
   return (
     <>
@@ -57,31 +95,31 @@ function App() {
           >
           <SwiperSlide>
             <div className="slider__item">
-              <div className="slider__layer" data-swiper-parallax="35%" style={{backgroundImage: `${url({layerBack})}}`}}></div>
-              <div className="slider__layer" data-swiper-parallax="25%" style={{backgroundImage: `${url({layerMiddle})}}`}}></div>
+              <div className="slider__layer" data-swiper-parallax="35%" style={{layerBackFirst}}></div>
+              <div className="slider__layer" data-swiper-parallax="25%" style={{layerMiddleFirst}}></div>
               <canvas className="slider__layer" data-swiper-parallax="18%" data-color="#BE9164"></canvas>
-              <div className="slider__layer" data-swiper-parallax="14%" style={{backgroundImage: `${url({layerFront})}}`}}></div>
+              <div className="slider__layer" data-swiper-parallax="14%" style={{layerFrontFirst}}></div>
             </div>
           </SwiperSlide>
 
             
           <SwiperSlide>
             <div className="slider__item">
-              <div className="slider__layer" data-swiper-parallax="40%" style={{backgroundImage: `${url({layerBackSecond})}}`}}></div>
-              <div className="slider__layer" data-swiper-parallax="34%" style={{backgroundImage: `${url({layerGera})}}`}}></div>
-              <div className="slider__layer" data-swiper-parallax="30%" style={{backgroundImage: `${url({layerYen})}}`}}></div>
+              <div className="slider__layer" data-swiper-parallax="40%" style={{layerBackSecondImg}}></div>
+              <div className="slider__layer" data-swiper-parallax="34%" style={{layerGeraImg}}></div>
+              <div className="slider__layer" data-swiper-parallax="30%" style={{layerYenImg}}></div>
               <canvas className="slider__layer" data-swiper-parallax="20%" data-color="#525A6D"></canvas>
-              <div className="slider__layer" data-swiper-parallax="14%" style={{backgroundImage: `${url({layerFrontSecond})}}`}}></div>
+              <div className="slider__layer" data-swiper-parallax="14%" style={{layerFrontSecondImg}}></div>
             </div>
           </SwiperSlide>
             
           <SwiperSlide>
             <div className="slider__item">
-              <div className="slider__layer" data-swiper-parallax="48%" style={{backgroundImage: `${url({layerBackThird})}}`}}></div>
-              <div className="slider__layer" data-swiper-parallax="35%" style={{backgroundImage: `${url({layerMiddleThird})}}`}}></div>
-              <div className="slider__layer" data-swiper-parallax="29%" style={{backgroundImage: `${url({layerCiri})}}`}}></div>
+              <div className="slider__layer" data-swiper-parallax="48%" style={{layerBackThirdImg}}></div>
+              <div className="slider__layer" data-swiper-parallax="35%" style={{layerMiddleThirdImg}}></div>
+              <div className="slider__layer" data-swiper-parallax="29%" style={{layerCiriImg}}></div>
               <canvas className="particles slider__layer" data-swiper-parallax="25%" data-color="#938086"></canvas>
-              <div className="slider__layer" data-swiper-parallax="16%" style={{backgroundImage: `${url({layerFrontThird})}}`}}></div>
+              <div className="slider__layer" data-swiper-parallax="16%" style={{layerFrontThirdImg}}></div>
             </div>
           </SwiperSlide>
             
