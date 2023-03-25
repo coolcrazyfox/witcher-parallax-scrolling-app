@@ -9,7 +9,7 @@ function App() {
         <div className="swiper-slide slider__item">
           <div className="slider__layer" data-swiper-parallax="35%" style="background-image: url(img/screen-1/layer-back.jpg);"></div>
           <div className="slider__layer" data-swiper-parallax="25%" style="background-image: url(img/screen-1/layer-middle.png);"></div>
-          <canvas claclassNamess="particles slider__layer" data-swiper-parallax="18%" data-color="#BE9164"></canvas>
+          <canvas className="particles slider__layer" data-swiper-parallax="18%" data-color="#BE9164"></canvas>
           <div className="slider__layer" data-swiper-parallax="14%" style="background-image: url(img/screen-1/layer-front.png);"></div>
         </div>
 
