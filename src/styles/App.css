@@ -3,17 +3,15 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-html, body {
+/* html, body {
 	height: 100%;
 	background-color: #000;
-}
-/* :root {
-	--transition: 1.75s cubic-bezier(.2, .6, 0, 1);
 } */
+:root {
+	--transition: 1.75s cubic-bezier(.2, .6, 0, 1);
+}
 .slider {
 	height: 100%;
-	background-color: #000;
-    --transition: 1.75s cubic-bezier(.2, .6, 0, 1);
 }
 .slider__layer {
 	position: absolute;
