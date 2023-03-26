@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/witcher-parallax-scrolling-app/static/css/main.d314c13a.css",
+    "main.js": "/witcher-parallax-scrolling-app/static/js/main.74ba7412.js",
+    "static/media/layer-middle.png": "/witcher-parallax-scrolling-app/static/media/layer-middle.96d2c366d4d2ca9a9cf5.png",
+    "static/media/layer-ciri.png": "/witcher-parallax-scrolling-app/static/media/layer-ciri.80b14927405df043c587.png",
+    "static/media/layer-front.png": "/witcher-parallax-scrolling-app/static/media/layer-front.365644969e092e0bf93b.png",
+    "static/media/layer-yen.png": "/witcher-parallax-scrolling-app/static/media/layer-yen.f4379b2ca37ec1b1b8bd.png",
+    "static/media/layer-back.jpg": "/witcher-parallax-scrolling-app/static/media/layer-back.d4ed91a38ff9b8bea574.jpg",
+    "static/media/layer-gera.png": "/witcher-parallax-scrolling-app/static/media/layer-gera.384e42a9d927b5159886.png",
+    "index.html": "/witcher-parallax-scrolling-app/index.html",
+    "main.d314c13a.css.map": "/witcher-parallax-scrolling-app/static/css/main.d314c13a.css.map",
+    "main.74ba7412.js.map": "/witcher-parallax-scrolling-app/static/js/main.74ba7412.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d314c13a.css",
+    "static/js/main.74ba7412.js"
+  ]
+}
