@@ -18,9 +18,9 @@ import Slider from './components/Slider';
 
 function App() {
   const initState = [
-    {id:1, back: `${layerBack}`, front: `${layerFront}`, center: `${layerMiddle}`, color: "#BE9164", firstIData: '35%', secondData:'',thirdData:''},
-    {id:2, back: `${layerBackSecond}`, front: `${layerFrontSecond}`, center: `${layerGera}`, color: "#BE9164", firstIData: 200, secondData:'', thirdData:''},
-    {id:3, back: `${layerBackThird}`, front: `${layerFrontThird}`, center: `${layerMiddleThird}`, color: "#BE9164", firstIData: 200, secondData:'', thirdData:''},
+    {id:1, back: `${layerBack}`,test: null, front: `${layerFront}`, center: `${layerMiddle}`, color: "#BE9164", firstIData: '35%', secondData:'25%',testData:'0%', canvas:'18%', thirdData:'14%'},
+    {id:2, back: `${layerBackSecond}`,test:`${layerYen}`, front: `${layerFrontSecond}`, center: `${layerGera}`, color: "#525A6D", firstIData: '40%', secondData:'34%',testData:'30%',canvas:'20%', thirdData:'14%'},
+    {id:3, back: `${layerBackThird}`,test:`${layerCiri}`, front: `${layerFrontThird}`, center: `${layerMiddleThird}`, color: "#938086", firstIData: '48%', secondData:'35%',testData:'29%',canvas:'25%', thirdData:'16%'},
     
     
   ] 

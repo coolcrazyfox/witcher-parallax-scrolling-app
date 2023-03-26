@@ -9,13 +9,12 @@ import { Parallax, Pagination, Navigation } from "swiper";
 const Slider = ({slides}) => {
   return (
     <Swiper
-        // spaceBetween={575}
-        // slidesPerView={1}
+        spaceBetween={750}        
         style={{
           "--swiper-navigation-color": "red",
           "--swiper-pagination-color": "red",
         }}
-        speed={1000}
+        speed={500}
         parallax={true}
         pagination={{
           clickable: true,
@@ -27,26 +26,23 @@ const Slider = ({slides}) => {
       {slides.map((s)=>(
         <SwiperSlide key={s.id}>
           <div className="slider__item">      
-            <div data-swiper-parallax="35%" src={s.back} className="slider__layer" ></div>
-            <div data-swiper-parallax="25%" src={s.center}
-            className="slider__layer"
-            //  style={{backgroundSize: "cover " , height: '100vh', width: '100vw', backgroundPosition: 'center'}}
-             ></div>
-            <canvas className="slider__layer" data-swiper-parallax="18%" data-color={s.color}></canvas>  
-            <div data-swiper-parallax="14%" src={s.front}
-            className="slider__layer"
-            //  style={{backgroundSize: "cover " , height: '100vh', width: '100vw', backgroundPosition: 'center'}}
-             ></div>    
-              {/* <div className="slider__layer" data-swiper-parallax="35%" style={{backgroundImage: `url(${s.back})`}}></div> 
-              <div className="slider__layer" data-swiper-parallax="25%" style={{backgroundImage: `url(${s.center})`}}></div>*/}
-              {/* <canvas className="slider__layer" data-swiper-parallax="18%" data-color={s.color}></canvas> */}
-              {/*<div className="slider__layer" data-swiper-parallax="14%" style={{backgroundImage: `url(${s.front})`}}></div> */}
+            <img data-swiper-parallax={s.firstData} 
+              src={s.back}              
+              className="slider__layer" />
+            <img data-swiper-parallax={s.secondData}
+              src={s.center}/>
+             <img data-swiper-parallax={s.testData}
+              src={s.test}             
+              className="slider__layer"/>
+            <canvas className="slider__layer" data-swiper-parallax={s.canvas} data-color={s.color}></canvas>  
+            <img data-swiper-parallax={s.thirdData}
+              src={s.front}            
+              className="slider__layer"/>               
           </div>
         </SwiperSlide>
       )
 
-      )}
-        
+      )}        
         
     </Swiper>
   )
