@@ -23,44 +23,6 @@ import layerFrontThird from './assets/img/screen-3/layer-front.png'
 
 
 function App() {
-  //first
-  const layerBackFirst = {
-    backgroundImage: `url(${layerBack})`
-  }
-  const layerMiddleFirst = {
-    backgroundImage: `url(${layerMiddle})`
-  }
-  const layerFrontFirst = {
-    backgroundImage: `url(${layerFront})`
-  }
-  //second
-  const layerBackSecondImg = {
-    backgroundImage: `url(${layerBackSecond})`
-  }
-  const layerGeraImg = {
-    backgroundImage: `url(${layerGera})`
-  }
-  const layerYenImg = {
-    backgroundImage: `url(${layerYen})`
-  }
-  const layerFrontSecondImg = {
-    backgroundImage: `url(${layerFrontSecond})`
-  }
-  //third
-  const layerBackThirdImg = {
-    backgroundImage: `url(${layerBackThird})`
-  }
-  const layerMiddleThirdImg = {
-    backgroundImage: `url(${layerMiddleThird})`
-  }
-  const layerCiriImg = {
-    backgroundImage: `url(${layerCiri})`
-  }
-  const layerFrontThirdImg = {
-    backgroundImage: `url(${layerFrontThird})`
-  }
-  
-
   
   return (
     <>
