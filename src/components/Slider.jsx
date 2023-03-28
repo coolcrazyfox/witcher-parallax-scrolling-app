@@ -38,11 +38,7 @@ const Slider = ({slides}) => {
             <img data-swiper-parallax={s.thirdData}
               src={s.front}            
               className="slider__layer"/>               
-          </div>
-   <div>
-          test
-          safsdf<a>safsdf</a>
-          </div>         
+          </div>          
         </SwiperSlide>
       )
 
