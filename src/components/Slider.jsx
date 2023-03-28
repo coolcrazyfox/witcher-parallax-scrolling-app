@@ -39,6 +39,10 @@ const Slider = ({slides}) => {
               src={s.front}            
               className="slider__layer"/>               
           </div>
+          <div>
+          test
+          safsdf<a>safsdf</a>
+          </div>
         </SwiperSlide>
       )
 
