@@ -48,10 +48,6 @@ const Slider = ({ slides }) => {
               className="slider__layer"
             />
           </div>
-          <ul>
-            <li>2</li>
-            <li>1</li>
-          </ul>
         </SwiperSlide>
       ))}
     </Swiper>
